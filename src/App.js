@@ -3,8 +3,8 @@ import './App.css';
 import MovieCard from './components/MovieCard';
 
 function App() {
-  const API_URL =""
-  const API_SEARCH = ""
+  const API_URL ="https://api.themoviedb.org/3/discover/movie?"
+  const API_SEARCH = "https://api.themoviedb.org/3/search/movie?"
 
   const [movies, setMovies] = useState([]);
   const [term, setTerm] = useState('')
